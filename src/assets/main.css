@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #3A8FD8;
+  --color-white: #FFFFFF;
+  --color-black: #2B2F33;
+  
+  --color-gray-80: #33373B;
+  --color-gray-70: #4A4F54;
+  --color-gray-60: #62686E;
+  --color-gray-50: #7A8188;
+  --color-gray-40: #90979F;
+  --color-gray-30: #A8B0B8;
+  --color-gray-20: #BFC7CF;
+  --color-gray-10: #D5DDE5;
+  --color-gray-2: #E9EEF3;
+  
+  --color-secondary-dark: #274A73;
+  --color-secondary-light: #AFC6DA;
+  
+  --color-accent-one: #A27AD6;
+  --color-accent-two: #FF6A21;
+  
+  --color-success-light: #B9DFAE;
+  --color-success-medium: #3CB21F;
+  --color-success-dark: #1E8A0C;
+  
+  --color-warn-light: #E6DDBB;
+  --color-warn-medium: #F0C23C;
+  --color-warn-dark: #D07A10;
+  
+  --color-dangerous-light: #E7CACA;
+  --color-dangerous-medium: #FF5757;
+  --color-dangerous-dark: #E3322A;
+}
+
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
