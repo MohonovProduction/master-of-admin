@@ -1,0 +1,1 @@
+import{S as e,m as t}from"./vue-router-DstUmffU.js";import n from"./BoxesView-7AuX8Qxu.js";var r={__name:`PreconfiguredBoxesView`,setup(r){return(r,i)=>(e(),t(n))}};export{r as default};
