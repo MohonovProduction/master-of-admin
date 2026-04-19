@@ -30,6 +30,79 @@ import TheWelcome from '../components/TheWelcome.vue'
           <div class="bg-gray-2 p-3 rounded text-center text-sm">2</div>
         </div>
       </div>
+      
+      <!-- Material Icons Test Section -->
+      <div class="bg-white rounded-lg shadow p-6 mt-6">
+        <h2 class="text-xl font-semibold text-black mb-4">Material Icons</h2>
+        
+        <!-- Basic Icons -->
+        <div class="mb-6">
+          <h3 class="text-lg font-medium text-gray-70 mb-3">Basic Icons</h3>
+          <div class="flex flex-wrap gap-4 items-center">
+            <span class="material-icons text-3xl text-primary">home</span>
+            <span class="material-icons text-3xl text-accent-one">favorite</span>
+            <span class="material-icons text-3xl text-accent-two">star</span>
+            <span class="material-icons text-3xl text-success-medium">check_circle</span>
+            <span class="material-icons text-3xl text-warn-medium">warning</span>
+            <span class="material-icons text-3xl text-dangerous-medium">error</span>
+            <span class="material-icons text-3xl text-black">settings</span>
+            <span class="material-icons text-3xl">search</span>
+          </div>
+        </div>
+        
+        <!-- Icon Buttons -->
+        <div class="mb-6">
+          <h3 class="text-lg font-medium text-gray-70 mb-3">Icon Buttons</h3>
+          <div class="flex flex-wrap gap-3">
+            <button class="flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-lg hover:opacity-90">
+              <span class="material-icons">add</span>
+              Add New
+            </button>
+            <button class="flex items-center gap-2 bg-success-medium text-white px-4 py-2 rounded-lg hover:opacity-90">
+              <span class="material-icons">check</span>
+              Approve
+            </button>
+            <button class="flex items-center gap-2 bg-dangerous-medium text-white px-4 py-2 rounded-lg hover:opacity-90">
+              <span class="material-icons">delete</span>
+              Delete
+            </button>
+            <button class="flex items-center gap-2 bg-gray-60 text-white px-4 py-2 rounded-lg hover:opacity-90">
+              <span class="material-icons">edit</span>
+              Edit
+            </button>
+          </div>
+        </div>
+        
+        <!-- Icon Sizes -->
+        <div class="mb-6">
+          <h3 class="text-lg font-medium text-gray-70 mb-3">Icon Sizes</h3>
+          <div class="flex flex-wrap gap-4 items-end">
+            <span class="material-icons text-sm">home</span>
+            <span class="material-icons text-base">home</span>
+            <span class="material-icons text-lg">home</span>
+            <span class="material-icons text-xl">home</span>
+            <span class="material-icons text-2xl">home</span>
+            <span class="material-icons text-3xl">home</span>
+            <span class="material-icons text-4xl">home</span>
+            <span class="material-icons text-5xl">home</span>
+          </div>
+        </div>
+        
+        <!-- Navigation Icons -->
+        <div>
+          <h3 class="text-lg font-medium text-gray-70 mb-3">Navigation Icons</h3>
+          <div class="flex flex-wrap gap-4 items-center text-gray-60">
+            <span class="material-icons text-2xl hover:text-primary cursor-pointer">chevron_left</span>
+            <span class="material-icons text-2xl hover:text-primary cursor-pointer">chevron_right</span>
+            <span class="material-icons text-2xl hover:text-primary cursor-pointer">expand_more</span>
+            <span class="material-icons text-2xl hover:text-primary cursor-pointer">expand_less</span>
+            <span class="material-icons text-2xl hover:text-primary cursor-pointer">menu</span>
+            <span class="material-icons text-2xl hover:text-primary cursor-pointer">close</span>
+            <span class="material-icons text-2xl hover:text-primary cursor-pointer">more_vert</span>
+            <span class="material-icons text-2xl hover:text-primary cursor-pointer">refresh</span>
+          </div>
+        </div>
+      </div>
     </div>
     <TheWelcome />
   </main>
